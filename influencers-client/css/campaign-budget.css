@@ -1,0 +1,208 @@
+header {
+    box-shadow: none;
+}
+.wrapper {
+    padding: 9rem 8rem 3rem 11rem;
+    position: relative;
+}
+.main-button {
+    font-size: 18px;
+    padding: 4px 18px;
+    background-color: #0D71E3;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 30px;
+    margin: .5rem .5rem .5rem 0;
+    position: relative;
+    top: 0;
+}
+.main-button-passive {
+    background-color: #DCDCDC;
+    color: #F2F2F2;
+    padding: 4px 36px;
+    cursor: not-allowed !important;
+    text-transform: none;
+}
+.main-button-passive {
+    margin: .5rem 0;
+}
+.green {
+    background-color: #009440 !important;
+}
+.main-button-passive:focus {
+    background-color: #0D71E3 !important;
+}
+.main-button-passive:hover {
+    background-color: #DCDCDC;
+    color: #F2F2F2;
+}
+.campaign-network-select-block {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+.campaign-network-select-item {
+    font-size: 16px;
+    font-family: 'Roboto-Medium';
+    margin-right: 32px;
+    margin-bottom: 10px;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.campaign-network-select-item i {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: -5px 11px -5px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 24px;
+    background-size: 24px;
+    background-image: url(../images/global/circle-solid.svg);
+    border: 2px solid #DCDCDC;
+    border-radius: 50%;
+    color: black;
+
+}
+.campaign-network-select-item_active {
+    color: #0D71E3;
+}
+
+.campaign-network-select-item_active i {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 24px;
+    background-size: 24px;
+    background-image: url(../images/global/check-circle-solid.svg);
+    border: none;
+}
+
+.nav-info-main-title {
+    margin-top: 29px;
+    margin-left: 19px;
+    line-height: 30px;
+    margin-bottom: 4px;
+    font-family: 'Roboto-Medium';
+}
+.sub-campaign-title {
+    padding-bottom: 13px;
+    line-height: 22px;
+    margin-left: 19px;
+}
+.infl-map img {
+    width: 100%;
+    height: auto;
+}
+.inf-wrapper {
+    padding: 0 0 20px 0;
+}
+.budget-stats {
+    padding: 36px 4px;
+}
+.col-3  {
+    padding-right: 5px;
+}
+.summary-amount {
+    line-height: 30px;
+}
+.amount-sub-title {
+    margin-top: 0;
+}
+.budget-inf-list-wrapper {
+    margin: 0 19px;
+}
+.budget-top-row {
+    background-color: #F9F9F9;
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid #E9E9F0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.budget-top-row span {
+    font-size: 18px;
+    font-family: 'Roboto-Regular';
+    margin-left: 22px;
+}
+.budget-list-item {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto-Regular';
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #E9E9F0;
+    border-top: none;
+}
+.budget-list-item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.wrapper__nav-info_influencer-town {
+    left: 104px;
+}
+.circle-wrapper {
+    border: 1px solid #E9E9F0;
+    border-radius: 30px;
+    height: 31px;
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*.same-styled-icon-block {*/
+/*  */
+/*}*/
+.same-styled-icon-block:first-of-type {
+    margin-left: 25px;
+}
+.social-icon {
+    display: inline-block;
+    background-position: center center;
+    -webkit-background-size: 31px;
+    background-size: 31px;
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.facebook-icon {
+    background-image: url(../images/global/facebook_passive.png);
+}
+
+.facebook-icon:hover {
+    background-image: url(../images/global/facebook_hover.png);
+}
+.influencer-info-block {
+    position: relative;
+}
+.delete-inf {
+    right: 10px;
+    top: 10px;
+}
+.tag-list {
+    border-top: none;
+}
+.top-option-block span {
+    text-transform: uppercase;
+}
+.top-option-block i {
+    padding-right: 2px;
+
+}
+.wrapper__nav-info_influencer-info:hover .wrapper__nav-info_influencer-name {
+   color: #0D71E3;
+}
+.top-option-block span:hover {
+    border-bottom: 4px solid #0D71E3;
+    color: #0D71E3;
+}

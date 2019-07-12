@@ -1,0 +1,129 @@
+.wrapper__nav-info {
+    padding: 0;
+}
+
+.wrapper__brief-info {
+    padding: 0;
+}
+
+.wrapper__main-title span {
+    font-family: 'Roboto-Medium';
+    cursor: pointer;
+
+}
+
+.wrapper__main-title-passive {
+    color: #B3B3B3;
+}
+
+.title {
+    text-transform: none;
+}
+
+.top-brier-selection-block {
+    height: 48px;
+    border-bottom: 1px solid #F6F6F6;
+    text-transform: uppercase;
+}
+
+.top-brier-selection-item {
+    margin-right: 53px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.top-brier-selection-item:hover {
+    border-bottom: 3px solid #0D71E3;
+    padding-bottom: 11px;
+    color: #0D71E3;
+}
+
+.top-brier-selection-item:first-child {
+    margin-left: 9px;
+}
+
+.top-selection-brief-item_active {
+    border-bottom: 3px solid #0D71E3;
+    padding-bottom: 11px;
+    color: #0D71E3;
+}
+.overview-info-wrapper {
+    margin: 15px auto;
+    width: 100%;
+}
+.overview-influencers {
+    padding: 25px 22px;
+    border-right: 1px solid #F6F6F6;
+}
+.influencer-wrapper {
+    margin-bottom: 10px;
+}
+.influencer-img {
+    float: left;
+border-radius: 50%;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+    margin-right: 9px;
+}
+.influencer-img img {
+    width: 36px;
+    height: 36px;
+    max-width: 36px;
+    max-height: 36px;
+
+}
+.influencer-name {
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+    color: #000;
+    display: block;
+}
+.influencer-post {
+    font-size: 13px;
+    font-family: 'Roboto-Bold';
+    color: #666666;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 5px;
+}
+.overview-stats {
+    padding: 13px 22px;
+
+}
+.amount-sub {
+    text-transform: none;
+}
+
+.network-stat-wrapper {
+    height: 79px;
+    width: auto;
+    background-color: #F9F9F9;
+    padding: 7px 22px;
+}
+.network-stats {
+    padding: 0 12px;
+}
+
+.network-stat-wrapper .overview-stats {
+    border: none;
+}
+.network-name {
+    padding: 12px 21px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #0D71E3;
+}
+.facebook-icon,
+.instagram-icon {
+    padding-right: 5px;
+}
+.graph {
+    height: 200px;
+    background-color: #fff;
+}
+.summary-amount {
+    line-height: 36px;
+}
+.network-stat-wrapper .amount-sub-title {
+    bottom: 10px;
+}

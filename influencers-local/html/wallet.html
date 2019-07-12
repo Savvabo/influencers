@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap-4-2-1.css">
+    <link rel="stylesheet" href="../css/fontawesome5-5-0.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/finance-wallet.css">
+    <title>Wallet - local</title>
+</head>
+<body>
+<header class="navbar fixed-top">
+    <div class="navbar__company-link">
+        <img src="../images/global/company-logo.png" alt="">
+    </div>
+    <div class="navbar__user-link">
+        <img src="../images/global/user-photo.png" alt="">
+    </div>
+
+</header>
+<aside class="sidebar">
+    <a href="#" class="sidebar__logo"></a>
+    <a href="influencer-favourite.html" class="sidebar__link sidebar__link-influencers"></a>
+    <a href="campaign-agency-details.html" class="sidebar__link sidebar__link-campaign"></a>
+    <a href="wallet.html" class="sidebar__link sidebar__link-finance_active"></a>
+    <a href="account-local.html" class="sidebar__link sidebar__link-settings"></a>
+    <a href="#" class="sidebar__link sidebar__link-help"></a>
+
+</aside>
+<main>
+    <div class="wrapper">
+        <span class="wrapper__main-title">Wallet</span>
+        <div id="main-nav" class="wrapper__nav-block row">
+            <div class="col-3">
+                <div class="wrapper__nav">
+                    <div class="wrapper__nav-item wrapper__nav-item_active">
+                        <a href="#infRan">Influence range</a>
+                    </div>
+                    <div class="wrapper__nav-item">
+                        <a href="#myWall">My wallet</a>
+                        </div>
+                    <div class="wrapper__nav-item">
+                        <a href="#wallHis">Wallet history</a>
+                        </div>
+                    <div class="wrapper__nav-item">
+                        <a href="#payHis">Payment history</a>
+                        </div>
+                    <div class="wrapper__nav-item">
+                        <a href="#subHis">Subscription history</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="wrapper__nav-info">
+                    <div class="row">
+                        <div class="col-12">
+
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="wrapper__nav-info_campaigns">
+                                        <span id="infRan" class="nav-info-main-title">Influence range</span>
+                                        <span class="wrapper__nav-info_campaigns-local-town">Istambul</span>
+                                        <span class="wrapper__nav-info_item-sub-title">You have access to influencers in these districts</span>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="btn wrapper__nav-info_campaigns-btn d-inline-block">
+                                                    <i class="wrapper__nav-info_campaigns-icon"></i>
+                                                    <span>Besictas</span>
+                                                    <span class="wrapper__nav-info_campaigns-influensers">153 Influensers"</span>
+                                                </div>
+                                                <div class="btn wrapper__nav-info_campaigns-btn d-inline-block">
+                                                    <i class="wrapper__nav-info_campaigns-icon"></i>
+                                                    <span>Besictas</span>
+                                                    <span class="wrapper__nav-info_campaigns-influensers">153 Influensers"</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class=" btn main-button d-inline-block"
+                                                     data-toggle="modal"
+                                                     data-target="#plusModal">
+                                                    <i class="fas fa-plus wrapper__nav-info_additional-item-icon"></i>
+                                                    Add district
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="wrapper__nav-info_campaigns wrapper__nav-info_wallet">
+                                        <span id="myWall" class="nav-info-main-title">My wallet</span>
+                                        <span class="wrapper__nav-info_item-sub-title">Your current balance</span>
+                                        <div class="d-block">
+                                            <div class="btn wrapper__nav-info_campaigns-btn d-inline-block">
+                                                <span class="wallet-history_amount">600 TL</span>
+                                            </div>
+                                            <div class="btn main-button" data-toggle="modal"
+                                                 data-target="#plusModal"><i
+                                                    class="fas fa-plus wrapper__nav-info_additional-item-icon"></i>
+                                                Add to balance
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="wrapper__nav-info_campaigns wrapper__nav-info_wallet">
+                                        <span id="wallHis" class="nav-info-main-title">Wallet history</span>
+                                        <div class="wallet-history">
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <span>5000 TL</span>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <span class="wallet-history_date">Added on </span><span
+                                                                class="">29.12.2018</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <span>5000 TL</span>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <span class="wallet-history_date">Added on </span><span
+                                                                class="">29.12.2018</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <span>5000 TL</span>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <span class="wallet-history_date">Added on </span><span
+                                                                class="">29.12.2018</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <span>5000 TL</span>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <span class="wallet-history_date">Added on </span><span
+                                                                class="">29.12.2018</span>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="additional-content-link">See all</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="wrapper__nav-info_payment">
+                                        <span id="payHis" class="nav-info-main-title">Payment history</span>
+                                        <div class="row wrapper__nav-info_item-sub-title">
+                                            <div class="col-5"><span class=""> Campaign</span><i
+                                                    class="fas fa-long-arrow-alt-down"></i></div>
+                                            <div class="col-2"><span class="">Payment</span></div>
+                                            <div class="col-2"><span class="">Influencers</span></div>
+                                            <div class="col-2"><span class="">Date</span></div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                        <div class="wrapper__nav-info_payment-block">
+                                            <div class="row">
+                                                <div class="col-5"><i class="fas fa-bars"></i><span
+                                                        class="wrapper__nav-info_payment-campaign"> New York Number 1</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-payment">700 TL</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-influence">12</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-date">10.12.2018</span>
+                                                </div>
+                                                <div class="col-1"><a href="#"
+                                                                      class="wrapper__nav-info_payment-pdf">PDF</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wrapper__nav-info_payment-block">
+                                            <div class="row">
+                                                <div class="col-5"><i class="fas fa-bars"></i><span
+                                                        class="wrapper__nav-info_payment-campaign"> New York Number 1</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-payment">700 TL</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-influence">12</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-date">10.12.2018</span>
+                                                </div>
+                                                <div class="col-1"><a href="#"
+                                                                      class="wrapper__nav-info_payment-pdf">PDF</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wrapper__nav-info_payment-block">
+                                            <div class="row">
+                                                <div class="col-5"><i class="fas fa-bars"></i><span
+                                                        class="wrapper__nav-info_payment-campaign"> New York Number 1</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-payment">700 TL</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-influence">12</span>
+                                                </div>
+                                                <div class="col-2"><span
+                                                        class="wrapper__nav-info_payment-date">10.12.2018</span>
+                                                </div>
+                                                <div class="col-1"><a href="#"
+                                                                      class="wrapper__nav-info_payment-pdf">PDF</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="additional-content-link">See all</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="wrapper__nav-info_subscription">
+                                        <span id="subHis" class="nav-info-main-title">Subscription history</span>
+                                        <div class="row wrapper__nav-info_item-sub-title">
+                                            <div class="col-5"><span class=""> Starts</span></div>
+                                            <div class="col-3"><span class="">Expires</span></div>
+                                            <div class="col-3"><span class="">Payment</span></div>
+                                            <div class="col-1"></div>
+                                        </div>
+                                        <div class="wrapper__nav-info_payment-block">
+                                            <div class="row">
+                                                <div class="col-5"><i class="fas fa-bars"></i><span
+                                                        class="wrapper__nav-info_payment-campaign"> 01.11.2018</span>
+                                                </div>
+                                                <div class="col-3"><span
+                                                        class="wrapper__nav-info_payment-payment">01.11.2018</span>
+                                                </div>
+                                                <div class="col-3"><span
+                                                        class="wrapper__nav-info_payment-influence">700 TL</span>
+                                                </div>
+                                                <div class="col-1"><a href="#"
+                                                                      class="wrapper__nav-info_payment-pdf">PDF</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wrapper__nav-info_payment-block">
+                                            <div class="row">
+                                                <div class="col-5"><i class="fas fa-bars"></i><span
+                                                        class="wrapper__nav-info_payment-campaign"> 01.11.2018</span>
+                                                </div>
+                                                <div class="col-3"><span
+                                                        class="wrapper__nav-info_payment-payment">01.11.2018</span>
+                                                </div>
+                                                <div class="col-3"><span
+                                                        class="wrapper__nav-info_payment-influence">700 TL</span>
+                                                </div>
+                                                <div class="col-1"><a href="#"
+                                                                      class="wrapper__nav-info_payment-pdf">PDF</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wrapper__nav-info_payment-block">
+                                            <div class="row">
+                                                <div class="col-5"><i class="fas fa-bars"></i><span
+                                                        class="wrapper__nav-info_payment-campaign"> 01.11.2018</span>
+                                                </div>
+                                                <div class="col-3"><span
+                                                        class="wrapper__nav-info_payment-payment">01.11.2018</span>
+                                                </div>
+                                                <div class="col-3"><span
+                                                        class="wrapper__nav-info_payment-influence">700 TL</span>
+                                                </div>
+                                                <div class="col-1"><a href="#"
+                                                                      class="wrapper__nav-info_payment-pdf">PDF</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="additional-content-link">See all</a>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+</main>
+
+
+<div class="modal fade" id="plusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/bootstrap-js.js"></script>
+<script type="text/javascript" src="../js/bootstrap-bundle-js.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        //ID блока с ссылками #prime_nav
+        $("#main-nav").on("click","a", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+
+                //узнаем высоту от начала страницы до блока на который ссылается якорь
+                top = $(id).offset().top - 70;
+
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+    });
+</script>
+</body>
+</html>

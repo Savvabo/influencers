@@ -1,0 +1,236 @@
+.wrapper__nav-info {
+    padding: 0;
+}
+
+.wrapper__brief-info {
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.wrapper__main-title span {
+    font-family: 'Roboto-Medium';
+    cursor: pointer;
+
+}
+.wrapper a {
+    text-decoration: none;
+}
+
+.wrapper__main-title-passive {
+    color: #B3B3B3;
+}
+
+
+.title {
+    text-transform: none;
+}
+
+.top-brier-selection-block {
+    height: 48px;
+    border-bottom: 1px solid #F6F6F6;
+    text-transform: uppercase;
+}
+
+.top-brier-selection-item {
+    margin-right: 53px;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+}
+.top-brier-selection-item:hover {
+    border-bottom: 3px solid #0D71E3;
+    padding-bottom: 11px;
+    color: #0D71E3;
+    text-decoration: none;
+}
+
+/*.top-brier-selection-item:first-child {*/
+    /*margin-left: 1rem;*/
+/*}*/
+
+.top-selection-brief-item_active {
+    border-bottom: 3px solid #0D71E3;
+    padding-bottom: 11px;
+    color: #0D71E3;
+}
+
+.campaign-select {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.campaign-select select {
+    margin-top: 0;
+    font-family: 'Roboto-Light';
+    color: #000;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.search-button {
+    position: absolute;
+    top: 32px;
+    right: 17px;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    border: 2px solid #DCDCDC;
+    background-color: #fff;
+    text-align: center;
+    color: #0D71E3;
+    font-size: 14px;
+}
+
+.search-button i {
+    position: relative;
+    right: 2px;
+}
+
+.wrapper__nav-info_influencers {
+    margin-top: 38px;
+}
+
+.wrapper__nav-info_influencers-block {
+    display: block;
+    border-radius: 5px;
+    background-color: #FCFCFC;
+    border: 1px solid #FCFCFC;
+    width: 100%;
+    height: 69px;
+    line-height: 69px;
+    padding: 0 14px;
+    margin-bottom: 1rem;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    position: relative;
+}
+
+.facebook-icon {
+    font-size: 18px;
+    color: #3B5998;
+    padding-right: 7px;
+}
+
+.instagram-icon {
+    font-size: 18px;
+    color: #FB3958;
+    padding-right: 7px;
+}
+
+.youtube-icon {
+    font-size: 18px;
+    color: #FF2626;
+    padding-right: 7px;
+}
+
+.wrapper__nav-info_item-sub-title {
+    font-size: 13px;
+    color: #666666;
+    margin-bottom: 12px;
+    font-family: 'Roboto-Bold';
+}
+
+.influencer-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.case-menu {
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.wrapper__nav-info_influencer-name {
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.wrapper__nav-info_influencer-name {
+  text-decoration: none;
+    color: black;
+}
+
+.influencer-link-wrapper {
+    width: 230px;
+    height: 36px;
+    border: 1px solid #0D71E3;
+    border-radius: 30px;
+    display: block;
+    line-height: 36px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 0 15px;
+    margin-top: 16.5px;
+    cursor: pointer;
+}
+
+.main-button {
+    text-transform: none;
+    font-family: 'Roboto-Bold';
+    margin: 0;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+
+.text-confirmed {
+    color: #8E8E8E;
+    font-family: 'Roboto-Medium';
+    font-size: 18px;
+    cursor: not-allowed;
+}
+
+.link-span {
+    font-family: 'Roboto-Medium';
+    padding-right: 3px;
+}
+
+.network-link {
+    color: black;
+}
+
+.top-selection-brief-item_active .top-point-active {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    background-color: #0D71E3;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+    left: 5px;
+}
+
+.case-menu:hover ~ .modal-case {
+    width: 110px;
+    height: 47px;
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    color: #0D71E3;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);
+    -moz-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);
+    box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);
+    display: block;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: none;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+@media screen and (min-width: 1600px) {
+    .influencer-link-wrapper {
+        width: 290px;
+    }
+}

@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap-4-2-1.css">
+    <link rel="stylesheet" href="../css/fontawesome5-5-0.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/influencer-all-pages.css">
+    <title>Influencer Search</title>
+</head>
+<body>
+<header class="navbar inf-search fixed-top">
+    <div class="navbar__company-link">
+        <img src="../images/global/company-logo.png" alt="">
+    </div>
+    <div class="navbar__menu">
+        <a href="influencer-favourite.html" class="navbar__menu-item">
+            <span class="favourite-top-icon"></span>
+            Favourite
+        </a>
+        <a href="influencers-group.html" class="navbar__menu-item">
+            <span class="addgroup-top-icon"></span>
+            Group
+        </a>
+        <a href="influencers-search.html" class="navbar__menu-item navbar__menu-item_active">
+            <span class="search-top-icon"></span>
+            Search
+        </a>
+    </div>
+    <div class="navbar__user-link">
+        <img src="../images/global/user-photo.png" alt="">
+    </div>
+
+</header>
+<aside class="sidebar">
+    <a href="#" class="sidebar__logo"></a>
+    <a href="influencer-favourite.html" class="sidebar__link sidebar__link-influencers_active"></a>
+    <a href="campaign-brands-folder.html" class="sidebar__link sidebar__link-campaign"></a>
+    <a href="finance.html" class="sidebar__link sidebar__link-finance"></a>
+    <a href="account-agency.html" class="sidebar__link sidebar__link-settings"></a>
+    <a href="#" class="sidebar__link sidebar__link-help"></a>
+
+</aside>
+<main>
+    <div class="influencer-top-block">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="selection-block">
+                    <div class="special-item">
+                        <span class="upp-title">Influencer interests</span>
+                        <select class="form-control campaign-select select-button">
+                            <option><i></i> Default select</option>
+                            <option>Default select</option>
+                            <option>Default select</option>
+                            <option>Default select</option>
+                            <option>Default select</option>
+                            <option>Default select</option>
+                        </select>
+                        <ul>
+
+                            <li class="interesrt-item beauty-interest">
+                                <span>Beauty & Fashion</span>
+                                <i class="fas fa-times"></i>
+                            </li>
+                            <li class="interesrt-item tourism-interest">
+                                <span>Travel & Tourism</span>
+                                <i class="fas fa-times"></i>
+                            </li>
+                            <li class="interesrt-item entertainment-interest">
+                                <span>Entertainment</span>
+                                <i class="fas fa-times"></i>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="btn main-button">Apply</div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2 select-wrapper">
+
+            <div class="col select-block">
+                <span class="upp-title">Gender</span>
+                <div class="campaign-network-select-item campaign-network-select-item_active">
+                    <i></i>
+                    <span>Women</span>
+                </div>
+                <div class="campaign-network-select-item ">
+                    <i></i>
+                    <span>Men</span>
+                </div>
+            </div>
+
+            <div class="col select-block">
+                <span class="upp-title">Active networks</span>
+                <select class="form-control campaign-select">
+                    <option><i></i> Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                </select>
+            </div>
+
+            <div class="col select-block">
+                <span class="upp-title">Age</span>
+                <select class="form-control campaign-select campaign-select-same">
+                    <option><i></i> 25-35</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                </select>
+            </div>
+
+            <div class="col select-block">
+                <span class="upp-title">Audience size</span>
+                <select class="form-control campaign-select campaign-select-same">
+                    <option><i></i> > 100k</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                </select>
+            </div>
+
+
+            <div class="col select-block">
+                <span class="upp-title">City</span>
+                <select class="form-control campaign-select campaign-select-same">
+                    <option><i></i> Kiev</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                </select>
+            </div>
+
+
+            <div class="col select-block">
+                <span class="upp-title">District</span>
+                <select class="form-control campaign-select">
+                    <option><i></i> Dniprovsky</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                    <option>Default select</option>
+                </select>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="wrapper">
+
+        <div class="top-row">
+            <div class="influencers-amount-search">
+                <span>503 Influencers found</span>
+            </div>
+            <div class="top-row-option">
+                <span class="top-row-option_active">
+                    <i class="fas fa-ellipsis-v"></i>
+                    List view
+                </span>
+<!--                <span class="ml-5">-->
+<!--                    <i class="fas fa-map"></i>-->
+<!--                    Map view-->
+<!--                </span>-->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="wrapper__nav-info_agency">
+                    <div class="row wrapper__nav-info_item-sub-title">
+                        <div class="col-3"><span class=""> Name</span></div>
+                        <div class="col-3"><span>Networks</span></div>
+                        <div class="col-1"><span>Reach</span>
+                            <i class="fas fa-long-arrow-alt-down"></i>
+                        </div>
+                        <div class="col-1"><span>Engagement</span></div>
+                        <div class="col"><span>National rating</span></div>
+                        <div class="col"><span>Local rating</span></div>
+                        <div class="col-1"></div>
+                    </div>
+                    <div class="wrapper__nav-info_agency-block">
+                        <div class="influencer-info-block">
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <div class="influencer-info-wrap">
+                                        <i class="fas fa-bars triple-bars"></i>
+                                        <span class="influencer-img">
+                                                            <img src="../images/global/user-photo.png" width="50"
+                                                                 height="50" alt="">
+                                                        </span>
+                                        <a href='#' class="wrapper__nav-info_influencer-info"></a>
+                                        <a href="#" class="wrapper__nav-info_influencer-name">Debra Gilbert</a>
+                                        <span class="wrapper__nav-info_influencer-town">İstanbul Beşiktaş</span>
+                                    </div>
+
+                                </div>
+                                <div class="col-3">
+                                    <div class="icons-container">
+                                                <span>
+                                            <i class="facebook-icon"></i>
+                                        </span>
+                                        <span>
+                                            <i class="instagram-icon"></i>
+                                        </span>
+                                        <span>
+                                            <i class="pinterest-icon"></i>
+                                        </span>
+                                        <span>
+                                            <i class="youtube-icon"></i>
+                                        </span>
+                                        <span>
+                                            <i class="blog-icon"></i>
+                                        </span>
+<!--                                        <span>-->
+<!--                                            <i class="twitch-icon"></i>-->
+<!--                                        </span>-->
+                                    </div>
+                                </div>
+                                <div class="col-1 same-styled-icon-block">
+                                    <i class="fas fa-bullhorn"></i>
+                                    <span class="">12 k</span>
+                                </div>
+                                <div class="col-1 same-styled-icon-block">
+                                    <i class="fas fa-exchange-alt"></i>
+                                    <span class="">2.55%</span>
+                                </div>
+                                <div class="col">
+                                    <div class="same-styled-icon-block">
+                                        <div class="rate-wrapper">
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="half-star"></span>
+                                        </div>
+                                        <span class="last-title">320 TL</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="same-styled-icon-block">
+                                        <div class="rate-wrapper">
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-half-star"></span>
+                                        </div>
+                                        <span class="last-title">320 TL</span>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <span class="favourite-icon"></span>
+                                    <span class="addgroup-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="tag-list">
+                                    <li class="tag-item ">
+                                        <span class="amount beauty-interest">95</span>
+                                        Beauty & Fashion
+                                    </li>
+                                    <li class="tag-item  ">
+                                        <span class="amount tourism-interest">95</span>
+                                        Travel & Tourism
+                                    </li>
+                                    <li class="tag-item ">
+                                        <span class="amount entertainment-interest">95</span>
+                                        Entertainment
+                                    </li>
+                                    <li class="tag-item ">
+                                        <span class="amount movies-interest">95</span>
+                                        Movies & TV
+                                    </li>
+                                    <li class="tag-item  ">
+                                        <span class="amount books-interest">95</span>
+                                        Books & Literature
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="influencer-more-info-block">
+
+                            <div class="nav nav-tabs top-option-block" role="tablist">
+                                <span class="active" id="overview-tab" data-toggle="tab" href="#overview" role="tab"
+                                      aria-controls="overview" aria-selected="true">Overview</span>
+                                <span id="post-tab" data-toggle="tab" href="#post" role="tab" aria-controls="post"
+                                      aria-selected="false">Posts</span>
+                            </div>
+                            <div class="tab-content">
+                                <div class="inf-wrapper tab-pane fade show active" id="overview" role="tabpanel"
+                                     aria-labelledby="overview-tab">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="overview-influencer-info mb-5">
+                                            <span>
+                                                About
+                                            </span>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                                    consequat.
+                                                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                                                    molestie consequat
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="overview-stats">
+                                                <div class="row ">
+                                                    <div class="col-m">
+                                                        <div class="summary-amount">2500<span
+                                                                class="amount-sub">m</span>
+                                                        </div>
+                                                        <div class="amount-sub-title">Total <br> reach
+
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-m">
+                                                        <div class="summary-amount">2500<span
+                                                                class="amount-sub">k</span>
+                                                        </div>
+                                                        <div class="amount-sub-title">Total <br> engagement</div>
+
+                                                    </div>
+                                                    <div class="col-m">
+                                                        <div class="summary-amount">2500<span
+                                                                class="amount-sub">k</span></div>
+                                                        <div class="amount-sub-title">Local <br> campaigns</div>
+
+                                                    </div>
+                                                    <div class="col-m">
+                                                        <div class="summary-amount">2.5<span
+                                                                class="amount-sub"></span></div>
+                                                        <div class="amount-sub-title">National <br> campaigns</div>
+
+                                                    </div>
+                                                    <div class="col-m">
+                                                        <div class="summary-amount">2500<span
+                                                                class="amount-sub">kk</span>
+                                                            <span
+                                                                    class="amount-sub text-uppercase">top</span></div>
+                                                        <div class="amount-sub-title">Average <br> perfomance</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="inf-star-img">
+                                                <img src="../images/global/inf-star.png" alt="">
+                                            </div>
+                                            <span class="some-span">
+                                                Endorsed by
+                                            </span>
+                                            <ul class="group-list endoresed-list">
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste,</li>
+                                                <li class="endoresed-item">Lacoste</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="col-8">
+                                               <span class="some-span">
+                                                Interests
+                                            </span>
+                                            <ul class="group-list">
+                                                <li class="interesrt-item-bottom beauty-interest">Beauty & Fashion</li>
+                                                <li class="interesrt-item-bottom lightblue ">Travel & Tourism</li>
+                                                <li class="interesrt-item-bottom deeppink">Entertainment</li>
+                                                <li class="interesrt-item-bottom family-interest">Children & Family</li>
+                                                <li class="interesrt-item-bottom yoga-interest">Fitness & Yoga</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inf-wrapper tab-pane fade" id="post" role="tabpanel"
+                                     aria-labelledby="post-tab">
+
+                                    <select class="form-control post-select">
+                                        <option><i></i> Campaign posts</option>
+                                        <option>Default select</option>
+                                        <option>Default select</option>
+                                        <option>Default select</option>
+                                        <option>Default select</option>
+                                        <option>Default select</option>
+                                    </select>
+
+
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="post-wrapper">
+                                                <div class="post-img"><img src="../images/global/sme-pic.png"
+                                                                           alt=""></div>
+                                                <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, sapiente.</span>
+                                                <div class="some-block-wrapper">
+                                                    <div class="some-block-item">
+                                                        <i class="far fa-thumbs-up"></i>
+                                                        <span class="">15 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-comments"></i>
+                                                        <span class="">9 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-share-square"></i>
+                                                        <span class="">6 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-exchange-alt"></i>
+                                                        <span class="">2.55%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="post-wrapper">
+                                                <div class="post-img"><img src="../images/global/sme-pic.png"
+                                                                           alt=""></div>
+                                                <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sed.</span>
+                                                <div class="some-block-wrapper">
+                                                    <div class="some-block-item">
+                                                        <i class="far fa-thumbs-up"></i>
+                                                        <span class="">15 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-comments"></i>
+                                                        <span class="">9 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-share-square"></i>
+                                                        <span class="">6 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-exchange-alt"></i>
+                                                        <span class="">2.55%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="post-wrapper">
+                                                <div class="post-img"><img src="../images/global/sme-pic.png"
+                                                                           alt=""></div>
+                                                <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, modi!</span>
+                                                <div class="some-block-wrapper">
+                                                    <div class="some-block-item">
+                                                        <i class="far fa-thumbs-up"></i>
+                                                        <span class="">15 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-comments"></i>
+                                                        <span class="">9 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-share-square"></i>
+                                                        <span class="">6 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-exchange-alt"></i>
+                                                        <span class="">2.55%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="post-wrapper">
+                                                <div class="post-img"><img src="../images/global/sme-pic.png"
+                                                                           alt=""></div>
+                                                <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, possimus.</span>
+                                                <div class="some-block-wrapper">
+                                                    <div class="some-block-item">
+                                                        <i class="far fa-thumbs-up"></i>
+                                                        <span class="">15 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-comments"></i>
+                                                        <span class="">9 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-share-square"></i>
+                                                        <span class="">6 k</span>
+                                                    </div>
+                                                    <div class="some-block-item">
+                                                        <i class="fas fa-exchange-alt"></i>
+                                                        <span class="">2.55%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fas fa-times delete-inf"></i>
+                    </div>
+                    <div class="wrapper__nav-info_agency-block">
+                        <div class="influencer-info-block">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="influencer-info-wrap">
+                                        <i class="fas fa-bars triple-bars"></i>
+                                        <span class="influencer-img">
+                                                            <img src="../images/global/user-photo.png" width="50"
+                                                                 height="50" alt="">
+                                                        </span>
+                                        <a href='#' class="wrapper__nav-info_influencer-info"></a>
+                                        <a href="#" class="wrapper__nav-info_influencer-name">Debra Gilbert</a>
+                                        <span class="wrapper__nav-info_influencer-town">İstanbul Beşiktaş</span>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="icons-container">
+                                        <span class="active">
+                                            <i class="facebook-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="instagram-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="pinterest-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="blog-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="twitch-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-1 same-styled-icon-block">
+                                    <i class="fas fa-bullhorn"></i>
+                                    <span class="">12 k</span>
+                                </div>
+                                <div class="col-1 same-styled-icon-block">
+                                    <i class="fas fa-exchange-alt"></i>
+                                    <span class="">2.55%</span>
+                                </div>
+                                <div class="col">
+                                    <div class="same-styled-icon-block">
+                                        <div class="rate-wrapper">
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="half-star"></span>
+                                        </div>
+                                        <span class="last-title">320 TL</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="same-styled-icon-block">
+                                        <div class="rate-wrapper">
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-half-star"></span>
+                                        </div>
+                                        <span class="last-title">320 TL</span>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <span class="favourite-icon_active"></span>
+                                    <span class="addgroup-icon_active dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+                                    <div class="dropdown">
+                                        <div class="dropdown">
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <div class="dropdown-item dropdown-item-special">
+                                                    <span class="sel-group">Select groups</span>
+                                                    <i class="fas fa-times dropdown-item-close"></i>
+                                                </div>
+                                                <a class="dropdown-item" href="#" data-target="#renameGroup" data-toggle="modal">
+                                                    <i class="far fa-folder"></i>
+                                                    Rename Brand</a>
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="far fa-folder"></i>
+                                                    Delete Brand</a>
+                                                <div class="dropdown-item dropdown-item-save">
+                                                    <span>Save here</span>
+                                                    <i class="far fa-folder"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="tag-list">
+                                    <li class="tag-item ">
+                                        <span class="amount beauty-interest">95</span>
+                                        Beauty & Fashion
+                                    </li>
+                                    <li class="tag-item  ">
+                                        <span class="amount tourism-interest">95</span>
+                                        Travel & Tourism
+                                    </li>
+                                    <li class="tag-item ">
+                                        <span class="amount entertainment-interest">95</span>
+                                        Entertainment
+                                    </li>
+                                    <li class="tag-item ">
+                                        <span class="amount movies-interest">95</span>
+                                        Movies & TV
+                                    </li>
+                                    <li class="tag-item  ">
+                                        <span class="amount books-interest">95</span>
+                                        Books & Literature
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--                        <div class="influencer-more-info-block">-->
+                        <!--                            <div class="top-option-block">-->
+                        <!--                                <span>Overview</span>-->
+                        <!--                                <span class="active" id="post-tab" data-toggle="tab" href="#post" role="tab" aria-controls="post" aria-selected="true">Posts</span>-->
+                        <!--                            </div>-->
+                        <!--                            <div class="inf-wrapper">-->
+                        <!--                                <div class="row fade show active" id="post" role="tabpanel" aria-labelledby="post-tab">-->
+
+                        <!--                                    <div class="col-3">-->
+                        <!--                                        <div class="post-wrapper">-->
+                        <!--                                            <div class="post-img"><img src="images/global/some-img.png"-->
+                        <!--                                                                       alt=""></div>-->
+                        <!--                                            <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, sapiente.</span>-->
+                        <!--                                            <div class="row">-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="far fa-thumbs-up"></i>-->
+                        <!--                                                    <span class="">15 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-comments"></i>-->
+                        <!--                                                    <span class="">9 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-share-square"></i>-->
+                        <!--                                                    <span class="">6 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-exchange-alt"></i>-->
+                        <!--                                                    <span class="">2.55%</span>-->
+                        <!--                                                </div>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                    <div class="col-3">-->
+                        <!--                                        <div class="post-wrapper">-->
+                        <!--                                            <div class="post-img"><img src="images/global/some-img.png"-->
+                        <!--                                                                       alt=""></div>-->
+                        <!--                                            <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sed.</span>-->
+                        <!--                                            <div class="row">-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="far fa-thumbs-up"></i>-->
+                        <!--                                                    <span class="">15 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-comments"></i>-->
+                        <!--                                                    <span class="">9 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-share-square"></i>-->
+                        <!--                                                    <span class="">6 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-exchange-alt"></i>-->
+                        <!--                                                    <span class="">2.55%</span>-->
+                        <!--                                                </div>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                    <div class="col-3">-->
+                        <!--                                        <div class="post-wrapper">-->
+                        <!--                                            <div class="post-img"><img src="images/global/some-img.png"-->
+                        <!--                                                                       alt=""></div>-->
+                        <!--                                            <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, modi!</span>-->
+                        <!--                                            <div class="row">-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="far fa-thumbs-up"></i>-->
+                        <!--                                                    <span class="">15 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-comments"></i>-->
+                        <!--                                                    <span class="">9 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-share-square"></i>-->
+                        <!--                                                    <span class="">6 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-exchange-alt"></i>-->
+                        <!--                                                    <span class="">2.55%</span>-->
+                        <!--                                                </div>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                    <div class="col-3">-->
+                        <!--                                        <div class="post-wrapper">-->
+                        <!--                                            <div class="post-img"><img src="images/global/some-img.png"-->
+                        <!--                                                                       alt=""></div>-->
+                        <!--                                            <span class="post-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, possimus.</span>-->
+                        <!--                                            <div class="row">-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="far fa-thumbs-up"></i>-->
+                        <!--                                                    <span class="">15 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-comments"></i>-->
+                        <!--                                                    <span class="">9 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-share-square"></i>-->
+                        <!--                                                    <span class="">6 k</span>-->
+                        <!--                                                </div>-->
+                        <!--                                                <div class="col-s">-->
+                        <!--                                                    <i class="fas fa-exchange-alt"></i>-->
+                        <!--                                                    <span class="">2.55%</span>-->
+                        <!--                                                </div>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
+                        <i class="fas fa-times delete-inf"></i>
+                    </div>
+                    <div class="wrapper__nav-info_agency-block">
+                        <div class="influencer-info-block">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="influencer-info-wrap">
+                                        <i class="fas fa-bars triple-bars"></i>
+                                        <span class="influencer-img">
+                                                            <img src="../images/global/user-photo.png" width="50"
+                                                                 height="50" alt="">
+                                                        </span>
+                                        <a href='#' class="wrapper__nav-info_influencer-info"></a>
+                                        <a href="#" class="wrapper__nav-info_influencer-name">Debra Gilbert</a>
+                                        <span class="wrapper__nav-info_influencer-town">İstanbul Beşiktaş</span>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="icons-container">
+                                              <span class="active">
+                                            <i class="facebook-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="instagram-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="pinterest-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="youtube-icon"></i>
+                                        </span>
+                                        <span class="active">
+                                            <i class="twitch-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-1 same-styled-icon-block">
+                                    <i class="fas fa-bullhorn"></i>
+                                    <span class="">12 k</span>
+                                </div>
+                                <div class="col-1 same-styled-icon-block">
+                                    <i class="fas fa-exchange-alt"></i>
+                                    <span class="">2.55%</span>
+                                </div>
+                                <div class="col">
+                                    <div class="same-styled-icon-block">
+                                        <div class="rate-wrapper">
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="star"></span>
+                                            <span class="half-star"></span>
+                                        </div>
+                                        <span class="last-title">320 TL</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="same-styled-icon-block">
+                                        <div class="rate-wrapper">
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-star"></span>
+                                            <span class="local-half-star"></span>
+                                        </div>
+                                        <span class="last-title">320 TL</span>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <span class="favourite-icon"></span>
+                                    <span class="addgroup-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="tag-list">
+                                    <li class="tag-item ">
+                                        <span class="amount beauty-interest">95</span>
+                                        Beauty & Fashion
+                                    </li>
+                                    <li class="tag-item  ">
+                                        <span class="amount tourism-interest">95</span>
+                                        Travel & Tourism
+                                    </li>
+                                    <li class="tag-item ">
+                                        <span class="amount entertainment-interest">95</span>
+                                        Entertainment
+                                    </li>
+                                    <li class="tag-item ">
+                                        <span class="amount movies-interest">95</span>
+                                        Movies & TV
+                                    </li>
+                                    <li class="tag-item  ">
+                                        <span class="amount books-interest">95</span>
+                                        Books & Literature
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <i class="fas fa-times delete-inf"></i>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</main>
+
+
+<div class="modal fade" id="plusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/bootstrap-js.js"></script>
+<script type="text/javascript" src="../js/bootstrap-bundle-js.js"></script>
+<script>
+    $('.dropdown-toggle').dropdown();
+    // $('#post-tab a').on('click', function (e) {
+    //     e.preventDefault()
+    //     $(this).tab('show')
+    // });
+    // $('#overview-tab a').on('click', function (e) {
+    //     e.preventDefault()
+    //     $(this).tab('show')
+    // });
+</script>
+</body>
+</html>

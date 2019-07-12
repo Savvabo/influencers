@@ -1,0 +1,431 @@
+/*             -------------------------------------------------                MAIN WRAPPER              ------------------------------------------------------------------------------*/
+
+.wrapper {
+    padding: 5rem 8rem 3rem 11rem;
+    position: relative;
+}
+
+/*.wrapper__main-title {*/
+    /*width: 100%;*/
+    /*border-bottom: 2px solid black;*/
+    /*text-transform: uppercase;*/
+    /*display: block;*/
+    /*font-size: 30px;*/
+    /*height: 3rem;*/
+    /*font-family: 'Roboto-Medium';*/
+/*}*/
+
+/*.wrapper__nav-block {*/
+    /*margin-top: 22px;*/
+/*}*/
+
+/*.wrapper__nav {*/
+    /*border-radius: 10px;*/
+    /*-webkit-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);*/
+    /*-moz-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);*/
+    /*box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);*/
+    /*background-color: white;*/
+    /*text-transform: uppercase;*/
+/*}*/
+
+/*.wrapper__nav-item {*/
+    /*font-size: 20px;*/
+    /*color: black;*/
+    /*text-transform: uppercase;*/
+    /*width: 100%;*/
+    /*height: 25%;*/
+    /*line-height: 85px;*/
+    /*padding: 0 1.5rem;*/
+    /*font-family: 'Roboto-Medium';*/
+/*}*/
+
+/*.wrapper__nav-item_active {*/
+    /*border-left: .5rem solid #0D71E3;*/
+    /*color: #0D71E3;*/
+    /*padding: 0 1rem;*/
+/*}*/
+
+/*.wrapper__nav-info {*/
+    /*border-radius: 10px;*/
+    /*-webkit-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);*/
+    /*-moz-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);*/
+    /*box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);*/
+    /*background-color: white;*/
+    /*padding: 1rem 2rem 2rem;*/
+/*}*/
+
+/*.wrapper__nav-info_title {*/
+    /*font-size: 30px;*/
+    /*color: #0D71E3;*/
+    /*display: block;*/
+    /*text-transform: uppercase;*/
+/*}*/
+
+
+.wrapper__nav-info_item-title {
+    color: #808495;
+    font-size: 13px;
+}
+
+.nav-info-sub-title,
+.nav-info-input-sub-title {
+    display: block;
+    margin-top: 10px;
+    color: #4D4F5C;
+    font-size: 13px;
+}
+
+/*.wrapper__nav-item_active:first-child {*/
+    /*border-top-left-radius: 10px;*/
+/*}*/
+/*.wrapper__nav-item_active:last-child {*/
+    /*border-bottom-left-radius: 10px;*/
+/*}*/
+/*             -------------------------------------------------                ACCOUNT              ------------------------------------------------------------------------------*/
+.wrapper__nav-info_account .wrapper__nav-info_account-item {
+    margin: 2rem 20rem 2rem 0;
+    width: 25rem;
+}
+.wrapper__nav-info_account-item {
+    margin: 2rem 50rem 2rem 0;
+    position: relative;
+}
+.wrapper__nav-info_account-item:hover label {
+    color: #0D71E3 !important;
+}
+
+.edit-button {
+    border-radius: 30px;
+    border: 2px solid #B3B3B3;
+    width: 68px;
+    height: 26px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    cursor: pointer;
+}
+.edit-button span {
+    font-size: 16px;
+    font-family: 'Roboto-Medium';
+    color: black;
+}
+.edit-button-special {
+    bottom: 38px;
+}
+.edit-button-brand {
+    top: 0;
+}
+
+.wrapper__nav-info_account,
+.wrapper__nav-info_user,
+.wrapper__nav-info_brands {
+    margin-bottom: 3rem;
+}
+/*             -------------------------------------------------                USER              ------------------------------------------------------------------------------*/
+
+.wrapper__nav-info_user ul,
+.wrapper__nav-info_brands ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper__nav-info_user li {
+    margin-top: 10px;
+    display: block;
+}
+
+.wrapper__nav-info_user li a {
+    text-decoration: none;
+}
+
+.wrapper__nav-info_user li a:hover {
+    text-decoration: none;
+}
+
+.wrapper__nav-info_user-item_user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 13px;
+}
+.wrapper__nav-info_user-item_user-photo img {
+    width: 100%;
+    display: block;
+
+}
+
+.wrapper__nav-info-list-title {
+    color: #000;
+    font-size: 20px;
+    display: block;
+}
+
+.wrapper__nav-info-list-sub-title {
+    color: #828282;
+    font-size: 16px;
+    display: block;
+}
+
+/*             -------------------------------------------------                BRANDS              ------------------------------------------------------------------------------*/
+.wrapper__nav-info_brands-item {
+    margin: 1rem 20rem 2rem 0;
+    position: relative;
+    width: 25rem;
+}
+
+.wrapper__nav-info_brands-item_brand-photo {
+    max-width: 200px;
+    max-height: 36px;
+    overflow: hidden;
+}
+.wrapper__nav-info_brands-item_brand-photo img {
+    width: auto;
+    max-height: 36px;
+    display: block;
+}
+
+.brand-photo_nike {
+    background-image: url(../images/global/nike.svg);
+    width: 104px;
+    height: 36px;
+}
+
+.brand-photo_lacoste {
+    background-image: url(../images/global/lacoste.svg);
+    width: 186px;
+    height: 36px;
+}
+
+.wrapper__nav-info_additional-item {
+    width: 50px;
+    height: 50px;
+    background-color: #DCDCDC;
+    background-position: center center;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrapper__nav-info_additional-item-icon {
+    font-size: 20px;
+    line-height: 50px;
+    color: #B3B3B3;
+}
+
+/*             -------------------------------------------------                LOCAL              ------------------------------------------------------------------------------*/
+
+/*.wrapper__nav-info_campaigns {*/
+    /*margin: 31px 158px 60px 46px;*/
+    /*display: inline-block;*/
+/*}*/
+
+.wrapper__nav-info_campaigns-sub-title {
+    font-size: 13px;
+    color: black;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.wrapper__nav-info_campaigns-sub-title a {
+    color: #0D71E3;
+}
+
+.wrapper__nav-info_campaigns-sub-title a:hover {
+    color: #0D71E3;
+}
+
+.main-button {
+    font-size: 18px;
+    padding: 4px 18px;
+    background-color: #0D71E3;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: .25rem;
+}
+.main-button:hover {
+  color: white;
+}
+
+.wrapper__nav-info_campaigns-local-town {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.wrapper__nav-info_campaigns-btn {
+    background-color: #F2F2F2;
+    padding: 4px 18px;
+    text-align: center;
+    color: #0D71E3;
+    border-radius: 30px;
+    display: block;
+    margin: .5rem .5rem .5rem -0.05rem;
+    width: max-content;
+    font-size: 18px;
+
+}
+.wrapper__nav-info_campaigns-btn:hover {
+    color: #0D71E3;
+    cursor: text !important;
+}
+.wrapper__nav-info_campaigns-influensers:hover {
+    color: black !important;
+}
+
+.wrapper__nav-info_campaigns-icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/global/inf-icon.svg);
+    width: 11px;
+    height: 16px;
+    display: inline-block;
+
+}
+.wrapper__nav-info_campaigns-influensers {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto-Light';
+    cursor: text;
+}
+
+.wrapper__nav-info_campaigns-icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/global/inf-icon.svg);
+    width: 11px;
+    height: 16px;
+    display: inline-block;
+
+}
+.wrapper__nav-info_campaigns-influensers {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto-Light';
+}
+.wrapper__nav-info_campaigns-town {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto-Medium';
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+
+/*             -------------------------------------------------                MEDIA 1366              ------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1366px) and (max-width: 1680px) {
+    .wrapper__nav-item {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1400px) {
+    .wrapper__nav-item {
+        font-size: 17px;
+    }
+}
+    /*.navbar__user-link {*/
+        /*margin: 10px 7rem 10px;*/
+    /*}*/
+
+    /*.wrapper {*/
+        /*margin: 85px 8rem 25px 139px;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (max-width: 1440px) and (min-width: 1440px) {*/
+    /*.navbar__user-link {*/
+        /*margin: 10px 11.5rem 10px;*/
+    /*}*/
+
+    /*.wrapper {*/
+        /*margin: 85px 12.5rem 25px 139px;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (min-width: 1680px) {*/
+    /*.navbar__user-link {*/
+        /*margin: 10px 11.5rem 10px;*/
+    /*}*/
+
+    /*.wrapper {*/
+        /*margin: 85px 12.5rem 25px 139px;*/
+    /*}*/
+    /*.wrapper__nav-info {*/
+        /*width: 965px;*/
+    /*}*/
+
+    /*.wrapper__nav-info_account,*/
+    /*.wrapper__nav-info_user,*/
+    /*.wrapper__nav-info_brands {*/
+        /*margin: 31px 98px 60px 46px;*/
+        /*display: inline-block;*/
+    /*}*/
+
+    /*.wrapper__nav-info_user {*/
+        /*position: absolute;*/
+        /*display: inline-block;*/
+    /*}*/
+
+    /*.wrapper__nav-info_brands {*/
+
+        /*position: absolute;*/
+        /*display: inline-block;*/
+        /*bottom: 110px;*/
+        /*!* left: 500px; *!*/
+        /*margin-right: 10px;*/
+    /*}*/
+
+    /*.wrapper__nav-info_campaigns {*/
+        /*margin: -40px 158px 60px 46px;*/
+        /*display: inline-block;*/
+    /*}*/
+
+    /*.wrapper__nav-info_campaigns-sub-title a {*/
+        /*display: block;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (max-width: 1920px) and (min-width: 1920px) {*/
+    /*.navbar__user-link {*/
+        /*margin: 10px 19rem 10px;*/
+    /*}*/
+
+    /*.wrapper {*/
+        /*margin: 85px 20rem 25px 139px;*/
+    /*}*/
+
+    /*.wrapper__nav-info {*/
+        /*width: 1080px;*/
+    /*}*/
+
+    /*.wrapper__nav-info_account,*/
+    /*.wrapper__nav-info_user,*/
+    /*.wrapper__nav-info_brands {*/
+        /*margin: 31px 98px 60px 46px;*/
+        /*display: inline-block;*/
+    /*}*/
+
+    /*.wrapper__nav-info_user {*/
+        /*position: absolute;*/
+    /*}*/
+
+    /*.wrapper__nav-info_brands {*/
+        /*position: relative;*/
+        /*top: 205px;*/
+    /*}*/
+
+    /*.wrapper__nav-info_campaigns {*/
+        /*margin: -34px 0 60px 46px;*/
+        /*display: inline-block;*/
+    /*}*/
+
+    /*.wrapper__nav-info_campaigns-sub-title a {*/
+        /*display: block;*/
+    /*}*/
+
+
+/*}*/

@@ -1,0 +1,106 @@
+.wrapper__main-title {
+    position: relative;
+    margin-bottom: 35px;
+}
+.wrapper {
+    padding-top: 5.5rem;
+}
+
+.search-button {
+    position: absolute;
+    bottom: 11px;
+    /*right: 10px;*/
+    right: 0;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    border: 2px solid #DCDCDC;
+    background-color: #fff;
+    text-align: center;
+    color: #0D71E3;
+    font-size: 14px;
+}
+
+.search-button i {
+    position: relative;
+    right: 2px;
+}
+
+.brands-block {
+    width: auto;
+    height: 170px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.brands-title {
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+}
+
+.brand-logo {
+    max-width: 150px;
+    max-height: 22px;
+}
+
+.brand-logo img {
+    max-width: 150px;
+    max-height: 22px;
+}
+
+.case-menu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 22px;
+    color: #828282;
+}
+.brand-name {
+    font-size: 16px;
+    font-family: 'Roboto-Regular';
+    display: block;
+    margin-top: 19px;
+    margin-bottom: 12px;
+    color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+.brand-name:hover {
+    color: #0D71E3;
+    text-decoration: none;
+}
+.campaigns-amount,
+.influencers-amount {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: #0D71E3;
+    background-color: #F6F6F6;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 28px;
+    margin: 0 8px 8px 0;
+}
+.group-input {
+    border: none;
+    border-bottom: 2px solid #DCDCDC;
+    width: 100%;
+    border-radius: 0;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: none;
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}

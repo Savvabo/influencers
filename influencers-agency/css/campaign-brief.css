@@ -1,0 +1,129 @@
+.wrapper__nav-info {
+    padding: 0;
+}
+
+.wrapper__brief-info {
+    padding: 2rem;
+}
+
+.wrapper__main-title span {
+    font-family: 'Roboto-Medium';
+
+}
+
+.wrapper__main-title-passive {
+    color: #B3B3B3;
+    cursor: pointer;
+    text-decoration: none;
+}
+.wrapper__main-title-passive:hover {
+    color: #B3B3B3;
+    text-decoration: none;
+}
+
+.title {
+    text-transform: none;
+}
+
+.top-brier-selection-block {
+    height: 48px;
+    border-bottom: 1px solid #F6F6F6;
+    text-transform: uppercase;
+}
+
+.top-brier-selection-item {
+    margin-right: 53px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.top-brier-selection-item:hover {
+    border-bottom: 3px solid #0D71E3;
+    padding-bottom: 11px;
+    color: #0D71E3;
+    text-decoration: none;
+}
+.top-selection-brief-item_active {
+    border-bottom: 3px solid #0D71E3;
+    padding-bottom: 11px;
+    color: #0D71E3;
+}
+
+    .top-brier-selection-item:first-child {
+        margin-left: 1rem;
+    }
+
+
+
+.campaign-text {
+    margin-top: 1rem;
+}
+
+.brief-edit-btn,
+.brief-edit-button {
+    border: 2px solid #B3B3B3;
+    padding: 5px 27px 5px 17px;
+    font-size: 18px;
+    color: #666666;
+    font-family: 'Roboto-Regular';
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    margin-left: 36px;
+    margin-bottom: 8px;
+}
+
+.brief-edit-btn i,
+.brief-edit-button i {
+    font-size: 16px;
+    color: #0D71E3;
+    margin-right: 10px;
+}
+
+.brief-edit-btn:hover {
+    background-color: #0D71E3;
+    color: white;
+    border: 2px solid #0D71E3;
+}
+
+.brief-edit-btn:hover i {
+    color: white;
+}
+
+.campaign-item-wrapper {
+    margin-top: 40px;
+    display: block;
+}
+
+.post-item {
+    position: relative;
+}
+
+.brief-edit-button {
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);
+    -moz-box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);
+    box-shadow: 0 1px 10px -1px rgba(179, 179, 179, 1);
+    border: none;
+    position: absolute;
+    top: 22px;
+    right: 18px;
+}
+
+.facebook-icon {
+    font-size: 18px;
+    color: #3B5998;
+    padding-right: 3px;
+}
+
+.instagram-icon {
+    font-size: 18px;
+    color: #FB3958;
+    padding-right: 3px;
+
+}
+.stat-item {
+    width: 115px;
+}
